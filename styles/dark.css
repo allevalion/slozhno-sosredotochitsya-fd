@@ -11,6 +11,21 @@
   */
 }
 
+.theme-dark .header__rec-indicator {
+  display: block;
+}
+
 .theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  --accent-color: #ff0070;
+  --link-color: #ff0070;
+  --button-color: #ff0070;
+  --background-image: url(../images/cover-image-dark.png);
+  --header-title-color: #db00ff;
+  --section-title-color: #ff0070;
+  --title-color: #000028;
+  --text-color: #f1b2ce;
+  --main-padding: 10px;
+  --button-hover-border: rgb(255 0 112 / 0.4);
+  --vertical-padding: 40px;
+  --background-color: #000028;
 }
