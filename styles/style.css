@@ -470,12 +470,16 @@
     grid-template-columns: 1fr 66%;
   }
 
+  .footer {
+    max-height: 100vh;
+  }
+
   .footer__title {
     margin-top: 85px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .footer.decorated-zone::after {
-    margin-bottom: 145px;
+    margin-bottom: -60px;
   }
 }
