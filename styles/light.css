@@ -13,7 +13,7 @@
 
 .theme-light .page {
   --button-color: #353430;
-  --button-hover-color: rgb(50 49 45 / 0.4);
+  --button-hover-border: rgba(50 49 45 / 0.4);
   --text-color: #353430;
   --title-color: #353430;
   --section-title-color: #353430;
@@ -29,10 +29,9 @@
 }
 
 @media (prefers-color-scheme: light) {
-
   :root {
     --button-color: #353430;
-    --button-hover-color: rgb(50 49 45 / 0.4);
+    --button-hover-border: rgba(50 49 45 / 0.4);
     --text-color: #353430;
     --title-color: #353430;
     --section-title-color: #353430;

@@ -26,6 +26,13 @@
   --text-color: #f1b2ce;
   --main-padding: 10px;
   --button-hover-border: rgb(255 0 112 / 0.4);
-  --vertical-padding: 40px;
+  --vertical-padding: 45px;
   --background-color: #000028;
+}
+
+@media (width >= 768px) {
+  .theme-dark .page {
+    --main-padding: 20px;
+    --vertical-padding: 60px;
+  }
 }
