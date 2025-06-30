@@ -1,17 +1,17 @@
 .page {
   font-family: 'IBM Plex Mono', monospace;
   background-color: var(--background-color);
+  background-image: var(--background-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
   display: grid;
   height: 100vh;
   min-height: 668px;
-  background-image: var(--background-image);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   grid-template-rows: min-content 1fr min-content min-content;
   grid-template-columns: 1fr;
   align-items: center;
