@@ -29,6 +29,7 @@
 }
 
 @media (prefers-color-scheme: light) {
+
   :root {
     --button-color: #353430;
     --button-hover-border: rgba(50 49 45 / 0.4);

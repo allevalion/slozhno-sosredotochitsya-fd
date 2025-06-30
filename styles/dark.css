@@ -31,6 +31,7 @@
 }
 
 @media (width >= 768px) {
+
   .theme-dark .page {
     --main-padding: 20px;
     --vertical-padding: 60px;
